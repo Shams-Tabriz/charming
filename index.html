@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Charming Lane | being cute is a lifestyle</title>
+  <meta name="description" content="Charming Lane: cute finds, ordered by message. Pick your items and send your order through Messenger or Instagram.">
+  <meta name="theme-color" content="#FFFBF8">
+  <meta name="color-scheme" content="light">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Charming Lane">
+  <meta property="og:description" content="being cute is a lifestyle. New cute finds all the time.">
+  <meta property="og:image" content="assets/cover.png">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 44'%3E%3Cpath fill='%23a65469' d='M32 20C22 5 6 4 5 18c-1 13 15 14 27 2zM32 20C42 5 58 4 59 18c1 13-15 14-27 2zM28 22l-9 18 7-3 4 4 3-15zM36 22l9 18-7-3-4 4-3-15z'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Gilda+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="bow" viewBox="0 0 64 44">
+      <path fill="currentColor" d="M32 20C22 5 6 4 5 18c-1 13 15 14 27 2zM32 20C42 5 58 4 59 18c1 13-15 14-27 2zM28 22l-9 18 7-3 4 4 3-15zM36 22l9 18-7-3-4 4-3-15z"/>
+      <circle cx="32" cy="20" r="5" fill="currentColor" opacity=".7"/>
+    </symbol>
+  </svg>
+
+  <a class="skip-link" href="#shop">Skip to the shop</a>
+
+  <div class="ribbon-strip">
+    <p class="sr-only">being cute is a lifestyle. New finds all the time. Order by message on Messenger or Instagram.</p>
+    <div class="strip-track" aria-hidden="true">
+      <div class="strip-group">
+        <span>being cute is a lifestyle</span><svg class="mini-bow" viewBox="0 0 64 44"><use href="#bow"/></svg>
+        <span>new finds all the time</span><svg class="mini-bow" viewBox="0 0 64 44"><use href="#bow"/></svg>
+        <span>order by message on Messenger or Instagram</span><svg class="mini-bow" viewBox="0 0 64 44"><use href="#bow"/></svg>
+        <span>shipping fee confirmed in the chat</span><svg class="mini-bow" viewBox="0 0 64 44"><use href="#bow"/></svg>
+      </div>
+      <div class="strip-group">
+        <span>being cute is a lifestyle</span><svg class="mini-bow" viewBox="0 0 64 44"><use href="#bow"/></svg>
+        <span>new finds all the time</span><svg class="mini-bow" viewBox="0 0 64 44"><use href="#bow"/></svg>
+        <span>order by message on Messenger or Instagram</span><svg class="mini-bow" viewBox="0 0 64 44"><use href="#bow"/></svg>
+        <span>shipping fee confirmed in the chat</span><svg class="mini-bow" viewBox="0 0 64 44"><use href="#bow"/></svg>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-top">
+      <a class="brand" href="#top" aria-label="Charming Lane, back to top">
+        <span class="brand-mark"><svg viewBox="0 0 64 44" aria-hidden="true"><use href="#bow"/></svg></span>
+        <span class="brand-name" translate="no">Charming Lane</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#shop">Shop</a>
+        <a href="#how">How to order</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="bag-btn" id="openBag" type="button" aria-haspopup="dialog" aria-label="Open your bag">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span class="bag-count" id="bagCount" hidden>0</span>
+      </button>
+    </div>
+    <nav class="cat-bar" aria-label="Categories">
+      <div class="container cat-bar-inner">
+        <ul class="cat-nav" id="catNav"></ul>
+        <a class="cat-extra" href="#how">How to order</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <span id="top"></span>
+
+    <section class="cover" aria-labelledby="page-title">
+      <h1 class="sr-only" id="page-title">Charming Lane: being cute is a lifestyle</h1>
+      <div class="cover-bows" aria-hidden="true">
+        <svg class="fl fl1" viewBox="0 0 64 44"><use href="#bow"/></svg>
+        <svg class="fl fl2" viewBox="0 0 64 44"><use href="#bow"/></svg>
+        <svg class="fl fl3" viewBox="0 0 64 44"><use href="#bow"/></svg>
+        <svg class="fl fl4" viewBox="0 0 64 44"><use href="#bow"/></svg>
+        <svg class="fl fl5" viewBox="0 0 64 44"><use href="#bow"/></svg>
+      </div>
+      <img src="assets/cover.png" width="1536" height="1024" fetchpriority="high"
+           alt="A teddy bear with a bow, a blue notebook, a mini fan and gold jewelry on the left. A cream handbag, pink wallets and folded clothes on the right."
+           onerror="this.parentNode.classList.add('no-img');this.remove()">
+    </section>
+
+    <section class="shop" id="shop" aria-labelledby="shop-title">
+      <div class="container">
+        <h2 class="sr-only" id="shop-title">Shop</h2>
+        <div id="catalog"></div>
+        <p class="empty" id="empty" hidden>No items yet. Add your products in <code>js/products.js</code>.</p>
+      </div>
+    </section>
+
+    <section class="info" id="how" aria-labelledby="how-title">
+      <div class="container info-grid">
+        <div>
+          <h2 id="how-title">How to order</h2>
+          <ol class="steps">
+            <li><strong>Pick.</strong> Open an item, choose a color if there is one, add it to your bag.</li>
+            <li><strong>Send.</strong> Tap Messenger or Instagram. Your order is copied. Paste it in the chat.</li>
+            <li><strong>Confirm.</strong> We check stock, the shipping fee and how to pay, in the same chat.</li>
+          </ol>
+        </div>
+        <div class="about" id="about">
+          <img class="about-logo" src="assets/logo.png" width="160" height="160" alt="Charming Lane logo: a rose C and a brown L tied with a satin bow." onerror="this.remove()">
+          <p>Charming Lane is a small shop for cute things. New items arrive all the time, so what you see here changes.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand" translate="no">Charming Lane</p>
+        <p class="footer-line">being cute is a lifestyle.</p>
+      </div>
+      <div class="footer-actions">
+        <a class="btn btn-light" id="contactMessenger" href="#contact" target="_blank" rel="noopener">Message us on Messenger</a>
+        <a class="btn btn-ghost" id="contactInstagram" href="#contact" target="_blank" rel="noopener">Message us on Instagram</a>
+        <p class="social-line">
+          <a id="linkFacebook" href="#contact" target="_blank" rel="noopener">Facebook</a>
+          <a id="linkInstagram" href="#contact" target="_blank" rel="noopener">Instagram</a>
+        </p>
+      </div>
+    </div>
+    <p class="container copyright">&copy; <span id="year"></span> <span translate="no">Charming Lane</span>. All rights reserved.</p>
+  </footer>
+
+  <dialog id="productDialog" class="dialog" aria-label="Item details"></dialog>
+
+  <dialog id="drawer" class="drawer" aria-labelledby="bag-title">
+    <div class="drawer-head">
+      <h2 id="bag-title">Your bag</h2>
+      <button class="icon-btn" id="closeBag" type="button" aria-label="Close your bag">&times;</button>
+    </div>
+    <div class="drawer-body" id="bagItems"></div>
+    <div class="drawer-foot" id="bagFoot" hidden>
+      <p class="total-row"><span>Total</span><strong id="bagTotal"></strong></p>
+      <p class="muted small">Shipping fee is confirmed in the chat.</p>
+      <label class="field">Your name
+        <input type="text" id="custName" name="name" autocomplete="name" placeholder="Optional…">
+      </label>
+      <label class="field">Delivery address or notes
+        <textarea id="custNotes" name="notes" rows="2" autocomplete="street-address" placeholder="Optional. You can also tell us in the chat…"></textarea>
+      </label>
+      <button class="btn btn-primary btn-block" id="sendMessenger" type="button">Copy order and open Messenger</button>
+      <button class="btn btn-secondary btn-block" id="sendInstagram" type="button">Copy order and open Instagram</button>
+      <button class="link-btn" id="clearBag" type="button">Empty bag</button>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" popover="manual"></div>
+  <p class="sr-only" id="live" role="status" aria-live="polite"></p>
+
+  <script src="js/config.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
